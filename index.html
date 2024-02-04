@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <title>Landing Page</title>
 </head>
 <body>
     <div class="header">
         <div class="header-nav">
-            <div class="logo">Brand Logo</div>
+            <div class="logo">Header Logo</div>
             <div class="nav-links">
-                <a href="" id="link1">header link one</a>
-                <a href="" id="link2">header link two</a>
-                <a href="" id="link3">header link three</a>
+                <a href="" id="link1" class="header-link">header link one</a>
+                <a href="" id="link2" class="header-link">header link two</a>
+                <a href="" id="link3" class="header-link">header link three</a>
             </div>
         </div>
     </div>
     <div class="main1">
+        <div class="main1-content">
             <div class="hero-content">
                 <div class="hero-title">
                     This Website is awesome
@@ -25,49 +27,52 @@
                 <div class="hero-subtext">
                     This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
                 </div>
-                <button>
+                <button id="hero-signup">
                     Sign up
                 </button>
             </div>
             
-            <img src="./images/ady-teenagerinro-sQ0xXxQdfeY-unsplash.jpg" alt="Photo by Ady TeenagerInRO on Unsplash" height="200px" id="hero-image">
+            <img src="./images/ady-teenagerinro-sQ0xXxQdfeY-unsplash.jpg" alt="Photo by Ady TeenagerInRO on Unsplash" height="250px" id="hero-image">
+        </div>
     </div>
     <div class="main2">
-        <div class="main2-header"></div>
+        <div class="main2-header">Some random information.</div>
         <div class="main2-content">
-            <div class="main2-item">
+            <div class="item">
                 <img src="./images/pexels-alex-andrews-821651.jpg" height="150px" width="150px" alt="Photo by Alex Andrews"> <!-- https://www.pexels.com/photo/black-and-gray-pentax-bridge-camera-on-white-surface-821651/-->
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
-            <div class="main2-item">
+            <div class="item">
                 <img src="./images/pexels-jakub-zerdzicki-16045136.jpg" height="150px" width="150px" alt="Photo by Jakub Zerdzicki"> <!--https://www.pexels.com/photo/instant-camera-16045136/-->
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
-            <div class="main2-item">
+            <div class="item">
                 <img src="./images/pexels-jakub-zerdzicki-16045125.jpg" height="150px" width="150px" alt="Photo by Jakub Zerdzicki"><!--https://www.pexels.com/photo/instant-camera-16045125/-->
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
-            <div class="main2-item">
+            <div class="item">
                 <img src="./images/pexels-wolfgang-weiser-19847113.jpg" height="150px" width="150px" alt="Photo by Wolfgang Weiser"><!--https://www.pexels.com/photo/a-nikon-dslr-camera-on-a-tripod-19847113/-->
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
         </div>
     </div>
     <div class="main3">
-        <div class="quote">
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just flling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-        </div>
-        <div class="quote-reference">
-            -Thor, God of Thunder
+        <div class="quote-container">
+            <div class="quote">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just flling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            </div>
+            <div class="quote-reference">
+                -Thor, God of Thunder
+            </div>
         </div>
     </div>
     <div class="main4">
         <div class="modal">
             <div class="modal-content">
-                <div class="modal-title"></div>
-                <div class="modal-subtext"></div>
+                <div class="modal-title">Call to action! It's time!</div>
+                <div class="modal-subtext">Sign up for our product by clicking that button right now over there!</div>
             </div>
-            <button id="signup-button"></button>
+            <button class="signup-button">Sign up</button>
         </div>
     </div>
     <div class="footer">
