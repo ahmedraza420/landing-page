@@ -1,0 +1,7 @@
+body {
+    background: #111122;
+    color: #dddddd;
+    display: flex;
+    flex-flow: column wrap;
+}
+
