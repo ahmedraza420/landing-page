@@ -6,6 +6,7 @@ body {
     margin: 0px;
     font-family: roboto;
     height: 100vh;
+    min-width: fit-content;
 }
 
 .header, .footer {
@@ -13,16 +14,18 @@ body {
     display: flex;
     justify-content: center;
     padding: 0 30px;
+    
 }
 
 .header-nav {
     flex: 0 1 1100px;
     display: flex;
+    gap: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
     min-height: 70px;
-    align-items: center; 
-    
+    /* align-items: center;  */
+    margin-top: 30px;
 }
 
 .logo {
@@ -52,31 +55,34 @@ body {
 
 .main1-content {
     flex: 0 1 1100px;
-
     display: flex;
-
+    flex-flow: row wrap-reverse;
     /* padding: 10px 150px; */
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 10px 30px;
+
 }
 
 .hero-content {
+    flex: 0 1 auto;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-width: 450px;   
     min-height: 250px;
     flex-basis: auto;
     gap: 10px;
     justify-content: center;
+
 }
 
 .hero-title {
     font-size: 48px;
     font-weight: 1000;
     color: #f9faf8;
+
 }
 .hero-subtext, .header-link {
     font-size: 18px;
@@ -94,9 +100,12 @@ body {
     padding: 10px 25px;
 }
 
+
 #hero-image {
-    height: 250px;
+    max-height: 250px;
     width: auto;
+    flex: 0 1 auto;
+
 }
 
 .main2 {
@@ -183,20 +192,22 @@ body {
 
 .modal {
     flex: 0 1 1000px;
-    min-height: 150px;
+    min-height: 90px;
     background: #3882f6;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
-    justify-content: center;
-    padding: 0 140px;
+    justify-content: space-between;
+    padding: 30px 100px;
     border-radius: 10px;
+    flex-flow: row wrap;
 }
 
 .modal-content {
     display: flex;
     flex-direction: column;
     flex: 0 1 auto;
+    gap: 10px;
 }
 
 .modal-title , .modal-subtext {
@@ -208,8 +219,9 @@ body {
     font-weight: bold;
 }
 
+
 .signup-button {
-    margin-left: auto;
+    /* margin-left: auto; */
     border: #fefefe 3px solid;
     flex: 0 0 auto;
 }
